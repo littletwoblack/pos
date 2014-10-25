@@ -23,7 +23,7 @@ function printInventory(inputs) {
         }
 
     }
-console.log(inputs2)
+
 
     var sum=0;
     var string;
