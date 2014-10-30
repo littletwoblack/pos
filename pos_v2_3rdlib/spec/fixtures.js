@@ -18,3 +18,19 @@ function loadPromotions() {
         ])
     ]
 }
+function getdate() {
+    var dateDigitToString = function (num) {
+        return num < 10 ? '0' + num : num;
+    }
+    var timeNow = new Date();
+    var year = dateDigitToString(timeNow.getFullYear());
+    var month = dateDigitToString(timeNow.getMonth() + 1);
+    var day = dateDigitToString(timeNow.getDate());
+    var hour = dateDigitToString(timeNow.getHours());
+    var minute = dateDigitToString(timeNow.getMinutes());
+    var second = dateDigitToString(timeNow.getSeconds());
+    return year + '年' + month + '月' + day + '日 ' + hour + ':' + minute + ':' + second;
+
+
+
+}
