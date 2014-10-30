@@ -60,6 +60,8 @@ function getpurchase (inputs)
 
     return purchase
 }
+
+
 function getallinformation(purchase)
 {   this.purchase=purchase
     var allItems = loadAllItems()
