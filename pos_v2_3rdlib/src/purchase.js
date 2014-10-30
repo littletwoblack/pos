@@ -55,8 +55,13 @@ function getpurchase (inputs)
         }
 
     }
-
+  purchase=getallinformation(purchase)
     //程序执行到这里的时候，purchase数组已经存储了所有购买商品的条码号和数量
+
+    return purchase
+}
+function getallinformation(purchase)
+{   this.purchase=purchase
     var allItems = loadAllItems()
     for (var lookbar in purchase) {
         for (var i in allItems) {
