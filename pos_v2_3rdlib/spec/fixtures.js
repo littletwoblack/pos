@@ -18,7 +18,7 @@ function loadPromotions() {
         ])
     ]
 }
-function getdate() {
+function getdatestring() {
     var dateDigitToString = function (num) {
         return num < 10 ? '0' + num : num;
     }
