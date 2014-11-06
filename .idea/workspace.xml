@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c1ec212a-3d73-4bdb-b6c7-e9f86b027762" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pos_v2_3rdlib/spec/fixtures.js" afterPath="$PROJECT_DIR$/pos_v2_3rdlib/spec/fixtures.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pos_v2_3rdlib/src/main.js" afterPath="$PROJECT_DIR$/pos_v2_3rdlib/src/main.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pos_v2_3rdlib/src/print.js" afterPath="$PROJECT_DIR$/pos_v2_3rdlib/src/print.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pos_v2_3rdlib/src/purchase.js" afterPath="$PROJECT_DIR$/pos_v2_3rdlib/src/purchase.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="pos.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -32,8 +29,8 @@
       <file leaf-file-name="main.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pos_v2_3rdlib/src/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="272">
-              <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="240">
+              <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -42,7 +39,7 @@
       <file leaf-file-name="purchase.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pos_v2_3rdlib/src/purchase.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="624" max-vertical-offset="1408">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1408">
               <caret line="79" column="9" selection-start-line="79" selection-start-column="9" selection-end-line="79" selection-end-column="9" />
               <folding />
             </state>
@@ -52,8 +49,8 @@
       <file leaf-file-name="print.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pos_v2_3rdlib/src/print.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.7927928" vertical-offset="0" max-vertical-offset="666">
-              <caret line="33" column="4" selection-start-line="33" selection-start-column="4" selection-end-line="33" selection-end-column="4" />
+            <state vertical-scroll-proportion="0.6246246" vertical-offset="0" max-vertical-offset="928">
+              <caret line="26" column="79" selection-start-line="26" selection-start-column="79" selection-end-line="26" selection-end-column="79" />
               <folding />
             </state>
           </provider>
@@ -62,7 +59,7 @@
       <file leaf-file-name="main-spec.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pos_v2_3rdlib/spec/main-spec.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="976">
+            <state vertical-scroll-proportion="0.0" vertical-offset="192" max-vertical-offset="976">
               <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
               <folding />
             </state>
@@ -112,8 +109,8 @@
       <file leaf-file-name="main.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pos_v2/src/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="1763" max-vertical-offset="2416">
-              <caret line="91" column="53" selection-start-line="91" selection-start-column="4" selection-end-line="91" selection-end-column="53" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="1283" max-vertical-offset="2416">
+              <caret line="123" column="0" selection-start-line="123" selection-start-column="0" selection-end-line="123" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -144,9 +141,9 @@
         <option value="$PROJECT_DIR$/pos_v2_3rdlib/SpecRunner.html" />
         <option value="$PROJECT_DIR$/pos_v2_3rdlib/st.html" />
         <option value="$PROJECT_DIR$/pos_v2_3rdlib/spec/main-spec.js" />
-        <option value="$PROJECT_DIR$/pos_v2_3rdlib/src/main.js" />
         <option value="$PROJECT_DIR$/pos_v2_3rdlib/spec/fixtures.js" />
         <option value="$PROJECT_DIR$/pos_v2_3rdlib/src/purchase.js" />
+        <option value="$PROJECT_DIR$/pos_v2_3rdlib/src/main.js" />
         <option value="$PROJECT_DIR$/pos_v2_3rdlib/src/print.js" />
       </list>
     </option>
@@ -789,26 +786,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pos_v2/src/main.js">
+    <entry file="file://$PROJECT_DIR$/pos_v2_3rdlib/spec/fixtures.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="1763" max-vertical-offset="2416">
-          <caret line="91" column="53" selection-start-line="91" selection-start-column="4" selection-end-line="91" selection-end-column="53" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="6" max-vertical-offset="672">
+          <caret line="21" column="24" selection-start-line="21" selection-start-column="9" selection-end-line="21" selection-end-column="24" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pos_v2_3rdlib/src/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="272">
-          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="240">
+          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pos_v2_3rdlib/spec/fixtures.js">
+    <entry file="file://$PROJECT_DIR$/pos_v2/src/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="6" max-vertical-offset="672">
-          <caret line="21" column="24" selection-start-line="21" selection-start-column="9" selection-end-line="21" selection-end-column="24" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="1283" max-vertical-offset="2416">
+          <caret line="123" column="0" selection-start-line="123" selection-start-column="0" selection-end-line="123" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -823,8 +820,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pos_v2_3rdlib/src/print.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7927928" vertical-offset="0" max-vertical-offset="666">
-          <caret line="33" column="4" selection-start-line="33" selection-start-column="4" selection-end-line="33" selection-end-column="4" />
+        <state vertical-scroll-proportion="0.6246246" vertical-offset="0" max-vertical-offset="928">
+          <caret line="26" column="79" selection-start-line="26" selection-start-column="79" selection-end-line="26" selection-end-column="79" />
           <folding />
         </state>
       </provider>
