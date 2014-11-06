@@ -48,8 +48,8 @@
       <file leaf-file-name="print.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pos_v2_3rdlib/src/print.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.7207207" vertical-offset="256" max-vertical-offset="1072">
-              <caret line="46" column="75" selection-start-line="46" selection-start-column="75" selection-end-line="46" selection-end-column="75" />
+            <state vertical-scroll-proportion="0.7117117" vertical-offset="790" max-vertical-offset="1456">
+              <caret line="79" column="23" selection-start-line="79" selection-start-column="23" selection-end-line="79" selection-end-column="23" />
               <folding />
             </state>
           </provider>
@@ -819,8 +819,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pos_v2_3rdlib/src/print.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7207207" vertical-offset="256" max-vertical-offset="1072">
-          <caret line="46" column="75" selection-start-line="46" selection-start-column="75" selection-end-line="46" selection-end-column="75" />
+        <state vertical-scroll-proportion="0.7117117" vertical-offset="790" max-vertical-offset="1456">
+          <caret line="79" column="23" selection-start-line="79" selection-start-column="23" selection-end-line="79" selection-end-column="23" />
           <folding />
         </state>
       </provider>

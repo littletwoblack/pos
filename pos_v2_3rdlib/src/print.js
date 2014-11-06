@@ -12,8 +12,8 @@ function print(purchase)
         +'挥泪赠送商品：\n'
         +printdiscountlist(purchase,string)
         +'----------------------\n'
-//        +'总计：'+sumofall().toFixed(2)+'(元)\n'
-//        +'节省：'+sumdiscount().toFixed(2)+'(元)\n'
+        +'总计：'+sumofall(purchase)+'(元)\n'
+        +'节省：'+sumdiscount(purchase)+'(元)\n'
         +'**********************';
     return string;
 }
@@ -53,10 +53,34 @@ return string
 }
 
 function sumofall(purchase)
-{
+{  var sum=0
+    _.map(purchase,function(item)
+    {
+        if(item.discountflag==1&&item.count>=3)
+        {
+            sum += (item.price *(item.count-parseInt(item.count / 3)))
+        }
+        else
+        {
+            sum+= (item.price *item.count)
 
+        }
+
+    })
+    return sum.toFixed(2)
 }
+
 function sumdiscount(purchase)
 {
+    var sumdiscount=0
+    _.map(purchase,function(item)
+    {
+        if(item.discountflag==1&&item.count>=3)
+        {
+            sumdiscount += (item.price *parseInt(item.count / 3))
+        }
 
+
+    })
+    return sumdiscount.toFixed(2)
 }
