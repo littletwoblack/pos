@@ -1,9 +1,8 @@
 //TODO: Please write code in this file.
-var purchase=new Array()
-function printInventory(inputs) {
-    this.inputs=inputs
-    purchase= getpurchase(inputs)
+//var purchase=new Array()
 
-    var string= print(purchase)
-    console.log(string)
+function printInventory(inputs) {
+
+   var thisreceipt= new receipt(inputs)
+   thisreceipt.print()
 }

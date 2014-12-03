@@ -2,7 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c1ec212a-3d73-4bdb-b6c7-e9f86b027762" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pos_v2_3rdlib/src/print.js" afterPath="$PROJECT_DIR$/pos_v2_3rdlib/src/print.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pos_v2_3rdlib/src/model/receipt.js" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pos_v2_3rdlib/src/print.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pos_v2_3rdlib/src/purchase.js" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pos_v2_3rdlib/SpecRunner.html" afterPath="$PROJECT_DIR$/pos_v2_3rdlib/SpecRunner.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pos_v2_3rdlib/src/main.js" afterPath="$PROJECT_DIR$/pos_v2_3rdlib/src/main.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="pos.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -28,49 +33,52 @@
       <file leaf-file-name="main.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pos_v2_3rdlib/src/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="240">
-              <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-              <folding />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="280">
+              <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="purchase.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pos_v2_3rdlib/src/purchase.js">
+      <file leaf-file-name="receipt.js" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pos_v2_3rdlib/src/model/receipt.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1408">
-              <caret line="79" column="9" selection-start-line="79" selection-start-column="9" selection-end-line="79" selection-end-column="9" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="print.js" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/pos_v2_3rdlib/src/print.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.7117117" vertical-offset="790" max-vertical-offset="1456">
-              <caret line="79" column="23" selection-start-line="79" selection-start-column="23" selection-end-line="79" selection-end-column="23" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="main-spec.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pos_v2_3rdlib/spec/main-spec.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="192" max-vertical-offset="976">
-              <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="fixtures.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pos_v2_3rdlib/spec/fixtures.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="6" max-vertical-offset="672">
-              <caret line="21" column="24" selection-start-line="21" selection-start-column="9" selection-end-line="21" selection-end-column="24" />
-              <folding />
+            <state vertical-scroll-proportion="0.45045045" vertical-offset="0" max-vertical-offset="720">
+              <caret line="61" column="26" selection-start-line="61" selection-start-column="26" selection-end-line="61" selection-end-column="26" />
+              <folding>
+                <element signature="n#!!doc;n#receipt#0" expanded="false" />
+                <element signature="e#297#735#0" expanded="false" />
+                <element signature="n#!!block;n#print_pay_list#0" expanded="false" />
+                <element signature="e#831#1332#0" expanded="false" />
+                <element signature="e#889#1110#0" expanded="false" />
+                <element signature="e#1132#1325#0" expanded="false" />
+                <element signature="n#!!block;n#print_discount_list#0" expanded="false" />
+                <element signature="e#1449#1621#0" expanded="false" />
+                <element signature="e#1507#1614#0" expanded="false" />
+                <element signature="n#!!block;n#sum_of_all#0" expanded="false" />
+                <element signature="e#1720#1944#0" expanded="false" />
+                <element signature="e#1778#1860#0" expanded="false" />
+                <element signature="e#1882#1937#0" expanded="false" />
+                <element signature="n#!!block;n#sum_discount#0" expanded="false" />
+                <element signature="e#2069#2212#0" expanded="false" />
+                <element signature="e#2127#2204#0" expanded="false" />
+                <element signature="n#!!block;n#make_a_purchase#0" expanded="false" />
+                <element signature="n#!!block;n#make_barcode_and_count#0" expanded="false" />
+                <element signature="n#!!block;n#cannot_count#0" expanded="false" />
+                <element signature="e#2812#2878#0" expanded="false" />
+                <element signature="e#2892#2941#0" expanded="false" />
+                <element signature="n#!!block;n#can_count#0" expanded="false" />
+                <element signature="e#3055#3111#0" expanded="false" />
+                <element signature="e#3125#3161#0" expanded="false" />
+                <element signature="n#!!block;n#get_all_information#0" expanded="false" />
+                <element signature="e#3309#3522#0" expanded="false" />
+                <element signature="n#!!block;n#set_discount_flag#0" expanded="false" />
+                <element signature="e#3669#3911#0" expanded="false" />
+                <element signature="e#3768#3819#0" expanded="false" />
+                <element signature="e#3849#3900#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -78,7 +86,7 @@
       <file leaf-file-name="item.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pos_v2_3rdlib/src/model/item.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="192">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="240">
               <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
               <folding />
             </state>
@@ -88,28 +96,28 @@
       <file leaf-file-name="promotion.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pos_v2_3rdlib/src/model/promotion.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="160">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="200">
               <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="underscore.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pos_v2_3rdlib/src/underscore.js">
+      <file leaf-file-name="fixtures.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pos_v2_3rdlib/spec/fixtures.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="672" max-vertical-offset="22704">
-              <caret line="45" column="53" selection-start-line="45" selection-start-column="52" selection-end-line="45" selection-end-column="53" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="840">
+              <caret line="18" column="5" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pos_v2/src/main.js">
+      <file leaf-file-name="main-spec.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pos_v2_3rdlib/spec/main-spec.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="1571" max-vertical-offset="2416">
-              <caret line="130" column="0" selection-start-line="129" selection-start-column="8" selection-end-line="130" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="14" max-vertical-offset="1220">
+              <caret line="29" column="66" selection-start-line="29" selection-start-column="66" selection-end-line="29" selection-end-column="66" />
               <folding />
             </state>
           </provider>
@@ -137,21 +145,23 @@
         <option value="$PROJECT_DIR$/pos_v2/src/main.js" />
         <option value="$PROJECT_DIR$/pos_v1/spec/main-spec.js" />
         <option value="$PROJECT_DIR$/pos_v2_3rdlib/src/model/item.js" />
-        <option value="$PROJECT_DIR$/pos_v2_3rdlib/SpecRunner.html" />
         <option value="$PROJECT_DIR$/pos_v2_3rdlib/st.html" />
         <option value="$PROJECT_DIR$/pos_v2_3rdlib/spec/main-spec.js" />
         <option value="$PROJECT_DIR$/pos_v2_3rdlib/spec/fixtures.js" />
         <option value="$PROJECT_DIR$/pos_v2_3rdlib/src/purchase.js" />
-        <option value="$PROJECT_DIR$/pos_v2_3rdlib/src/main.js" />
         <option value="$PROJECT_DIR$/pos_v2_3rdlib/src/print.js" />
+        <option value="$PROJECT_DIR$/pos_v2_3rdlib/src/model/purchase.js" />
+        <option value="$PROJECT_DIR$/pos_v2_3rdlib/src/model/print.js" />
+        <option value="$PROJECT_DIR$/pos_v2_3rdlib/SpecRunner.html" />
+        <option value="$PROJECT_DIR$/pos_v2_3rdlib/src/main.js" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="65" />
-    <option name="y" value="24" />
+    <option name="y" value="-4" />
     <option name="width" value="1301" />
-    <option name="height" value="744" />
+    <option name="height" value="772" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -179,7 +189,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -270,58 +279,9 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pos" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pos" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pos_v2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pos" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pos" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pos_v2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pos" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pos" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pos_v2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="spec" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -332,6 +292,12 @@
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
     <property name="DefaultHtmlFileTemplate" value="Html5" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/pos_v2_3rdlib/src/model" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration default="true" type="RSpecRunConfigurationType" factoryName="RSpec">
@@ -412,12 +378,13 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="65" y="24" width="1301" height="744" extended-state="6" />
+    <frame x="65" y="-4" width="1301" height="772" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32902297" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16064566" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -428,7 +395,6 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -461,7 +427,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="720" max-vertical-offset="22752">
           <caret line="45" column="53" selection-start-line="45" selection-start-column="52" selection-end-line="45" selection-end-column="53" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -738,18 +703,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pos_v2_3rdlib/SpecRunner.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5442177" vertical-offset="0" max-vertical-offset="640">
-          <caret line="20" column="68" selection-start-line="20" selection-start-column="68" selection-end-line="20" selection-end-column="68" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pos_v2/spec/fixtures.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.24960998" vertical-offset="0" max-vertical-offset="641">
           <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pos_v2/src/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.7794793" vertical-offset="1571" max-vertical-offset="2416">
+          <caret line="130" column="0" selection-start-line="129" selection-start-column="8" selection-end-line="130" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -757,7 +721,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="1047" max-vertical-offset="22752">
           <caret line="45" column="53" selection-start-line="45" selection-start-column="52" selection-end-line="45" selection-end-column="53" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -765,6 +728,30 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="160">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pos_v2_3rdlib/spec/main-spec.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="494" max-vertical-offset="1220">
+          <caret line="29" column="66" selection-start-line="29" selection-start-column="66" selection-end-line="29" selection-end-column="66" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pos_v2_3rdlib/spec/fixtures.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="840">
+          <caret line="18" column="5" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pos_v2_3rdlib/SpecRunner.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.30926216" vertical-offset="163" max-vertical-offset="800">
+          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -777,51 +764,52 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pos_v2_3rdlib/spec/main-spec.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="310" max-vertical-offset="976">
-          <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pos_v2_3rdlib/spec/fixtures.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="6" max-vertical-offset="672">
-          <caret line="21" column="24" selection-start-line="21" selection-start-column="9" selection-end-line="21" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pos_v2_3rdlib/src/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="240">
-          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-          <folding />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="280">
+          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pos_v2_3rdlib/src/purchase.js">
+    <entry file="file://$PROJECT_DIR$/pos_v2_3rdlib/src/model/receipt.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="624" max-vertical-offset="1408">
-          <caret line="79" column="9" selection-start-line="79" selection-start-column="9" selection-end-line="79" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pos_v2/src/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="1715" max-vertical-offset="2416">
-          <caret line="130" column="0" selection-start-line="129" selection-start-column="8" selection-end-line="130" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pos_v2_3rdlib/src/print.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7117117" vertical-offset="790" max-vertical-offset="1456">
-          <caret line="79" column="23" selection-start-line="79" selection-start-column="23" selection-end-line="79" selection-end-column="23" />
-          <folding />
+        <state vertical-scroll-proportion="0.45045045" vertical-offset="0" max-vertical-offset="720">
+          <caret line="61" column="26" selection-start-line="61" selection-start-column="26" selection-end-line="61" selection-end-column="26" />
+          <folding>
+            <element signature="n#!!doc;n#receipt#0" expanded="false" />
+            <element signature="e#297#735#0" expanded="false" />
+            <element signature="n#!!block;n#print_pay_list#0" expanded="false" />
+            <element signature="e#831#1332#0" expanded="false" />
+            <element signature="e#889#1110#0" expanded="false" />
+            <element signature="e#1132#1325#0" expanded="false" />
+            <element signature="n#!!block;n#print_discount_list#0" expanded="false" />
+            <element signature="e#1449#1621#0" expanded="false" />
+            <element signature="e#1507#1614#0" expanded="false" />
+            <element signature="n#!!block;n#sum_of_all#0" expanded="false" />
+            <element signature="e#1720#1944#0" expanded="false" />
+            <element signature="e#1778#1860#0" expanded="false" />
+            <element signature="e#1882#1937#0" expanded="false" />
+            <element signature="n#!!block;n#sum_discount#0" expanded="false" />
+            <element signature="e#2069#2212#0" expanded="false" />
+            <element signature="e#2127#2204#0" expanded="false" />
+            <element signature="n#!!block;n#make_a_purchase#0" expanded="false" />
+            <element signature="n#!!block;n#make_barcode_and_count#0" expanded="false" />
+            <element signature="n#!!block;n#cannot_count#0" expanded="false" />
+            <element signature="e#2812#2878#0" expanded="false" />
+            <element signature="e#2892#2941#0" expanded="false" />
+            <element signature="n#!!block;n#can_count#0" expanded="false" />
+            <element signature="e#3055#3111#0" expanded="false" />
+            <element signature="e#3125#3161#0" expanded="false" />
+            <element signature="n#!!block;n#get_all_information#0" expanded="false" />
+            <element signature="e#3309#3522#0" expanded="false" />
+            <element signature="n#!!block;n#set_discount_flag#0" expanded="false" />
+            <element signature="e#3669#3911#0" expanded="false" />
+            <element signature="e#3768#3819#0" expanded="false" />
+            <element signature="e#3849#3900#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
