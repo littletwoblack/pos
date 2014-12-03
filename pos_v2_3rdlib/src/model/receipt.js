@@ -2,23 +2,19 @@
  * Created by zh on 14-10-30.
  */
 function receipt(inputs){
-  var purchase=make_a_purchase(inputs)
-  this.pay_list=print_pay_list(purchase)
-  this.discount_list=print_discount_list(purchase)
-  this.sum_all=sum_of_all(purchase)
-  this.sum_discount=sum_discount(purchase)
+  this.purchase=make_a_purchase(inputs)
   this.print=function(){
       var string='';
       string+='***<没钱赚商店>购物清单***\n'
           +'打印时间：'+getdatestring()
           +'\n'+'----------------------\n'
-          +this.pay_list
+          +print_pay_list(this.purchase)
           +'----------------------\n'
           +'挥泪赠送商品：\n'
-          +this.discount_list
+          +print_discount_list(this.purchase)
           +'----------------------\n'
-          +'总计：'+this.sum_all+'(元)\n'
-          +'节省：'+this.sum_discount+'(元)\n'
+          +'总计：'+sum_of_all(this.purchase)+'(元)\n'
+          +'节省：'+sum_discount(this.purchase)+'(元)\n'
           +'**********************';
       console.log(string)
   }
